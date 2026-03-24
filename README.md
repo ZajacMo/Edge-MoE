@@ -18,7 +18,7 @@ This repository provides a comprehensive collection of research papers, open-sou
 
 ## 📜 Catalog
 
-> **[Awesome Edge MoE](#awesome-edge-moe)**
+> **[When-MoE-Meets-Edge](#When-MoE-Meets-Edge)**
 >
 > - **[🔥 News](#-news)**
 > - **[📖 Overview](#-overview)**
