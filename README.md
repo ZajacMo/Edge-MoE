@@ -6,19 +6,15 @@
      <a href="https://github.com/ZajacMo/When-MoE-Meets-Edge"><img src="https://img.shields.io/github/forks/ZajacMo/When-MoE-Meets-Edge"/></a>
 </div>
 
-[cite_start]This repository provides a comprehensive collection of research papers, open-source projects, and optimization strategies for deploying **Mixture-of-Experts (MoE) Large Language Models on Edge Devices**[cite: 1743]. [cite_start]It includes contents from our survey paper 📖<em>"**Edge MoE: A Survey of Optimization Strategies for Mixture-of-Experts LLMs on the Edge**"</em> and will be continuously updated[cite: 1739, 1750].
+This repository provides a comprehensive collection of research papers, open-source projects, and optimization strategies for deploying **Mixture-of-Experts (MoE) Large Language Models on Edge Devices**. It includes contents from our survey paper 📖<em>"**Edge MoE: A Survey of Optimization Strategies for Mixture-of-Experts LLMs on the Edge**"</em> and will be continuously updated.
 
 🤗 **You are very welcome to contribute to this repository** by launching an issue or a pull request. 
 
-[cite_start]📫 **Contact us via emails:** `zhaoyong@uestc.edu.cn` [cite: 1752]
+📫 **Contact us via emails:** `zhaoyong@uestc.edu.cn`
 
 ---
 
-<div>
-<h3 align="center">
-       <p align="center"><img width="100%" src="figures/illustration_edge_moe_overview.png" alt="Overview of optimization strategies for Edge MoE"/></p>
-    <p align="center"><em>Overview of optimization strategies for MoE-based LLMs on edge devices, covering system, architecture, and parameter levels.</em></p>
-</div>
+
 
 ## 📜 Catalog
 
@@ -26,6 +22,7 @@
 >
 > - **[🔥 News](#-news)**
 > - **[📖 Overview](#-overview)**
+>  - **[📚 Related Survey](#-survey)**
 > - **[🪴 Taxonomy](#-taxonomy)**
 >   - [System Optimization](#system-optimization)
 >   - [Architecture Optimization](#architecture-optimization)
@@ -37,79 +34,185 @@
 
 ## 🔥 News
 
-* [cite_start]**[2026-03]** 🔥🔥 Our survey on Edge MoE optimization strategies is released, alongside this repository! [cite: 1750]
+* **[2026-03]** 🔥🔥 Our survey on Edge MoE optimization strategies is released! 
+
+## 📚 Related Survey Papers
+
 
 ## 🪴 Taxonomy
 
 ### System Optimization
-
-<p align="center"><img width="100%" src="figures/system_optimization.png" alt="System Optimization Taxonomy" /></p>
-
 #### Memory Management
-* [cite_start]**Hierarchical Storage**: EdgeMoE, Li et al., TensorRT-LLM, KTransformers [cite: 1869]
-* [cite_start]**Expert Caching & Prefetching**: EdgeMoE, ExpertFlow, Skliar et al., Li et al. [cite: 1870]
-* [cite_start]**Expert Swapping & Offloading**: Angelopoulos et al., PC-MoE, Kyung et al. [cite: 1871]
+##### Hierarchical Storage
+- () **EdgeMoE: Empowering Sparse Large Language Models on Mobile Devices** [[paper]](https://doi.ieeecomputersociety.org/10.1109/TMC.2025.3546466)
+- ()**Deep Learning and Machine Learning with GPGPU and CUDA: Unlocking the Power of Parallel Computing** [[paper]](https://arxiv.org/abs/2410.05686)
+- ()
+- ()
+##### Expert Caching & Prefetching
+- ()
+- ()
+- ()
+- ()
+##### Expert Swapping & Offloading
+- ()
+- ()
+- ()
 
 #### Pipeline Scheduling
-* [cite_start]**Communication-Computation Co-scheduling**: PipeMoE, Parm, Mast, FlowMoE, Pan et al., CCFuser [cite: 1872]
-* [cite_start]**Expert Resource Elastic Management**: FlexMoE, KLOTSKI, CCFuser, MPMOE [cite: 1873]
+##### Communication-Computation Co-scheduling
+-
+-
+-
+-
+-
+-
+##### Expert Resource Elastic Management
+-
+-
+-
+-
 
 #### Hardware Adaptation & Co-design
-* [cite_start]**Heterogeneous Compute Resource Coordination**: Fiddler, eIQ Neutron, PIMOE, IANUS [cite: 1881]
-* [cite_start]**Domain-Specific Hardware Architecture Design**: ELSA, TransPIM, SLIM, Atleus, GShard [cite: 1881, 1882]
+##### Heterogeneous Compute Resource Coordination
+-
+-
+-
+-
+##### Domain-Specific Hardware Architecture Design
+-
+-
+-
+-
+-
 
 #### Distributed & Collaborative Deployment
-* [cite_start]**Topology-Aware Communication and Routing**: LocMoE, GRACE-MoE, ExFlow, ScheMoE, Lina [cite: 1882]
-* [cite_start]**Edge-Cloud Collaborative Inference**: EC2MoE, MMSL, ExFlow [cite: 1883]
-* [cite_start]**Cost-Driven Elastic Deployment**: MoESys, Lina, Liu et al. [cite: 1884]
-
+##### Topology-Aware Communication and Routing
+-
+-
+-
+-
+-
+##### Edge-Cloud Collaborative Inference
+-
+-
+-
+##### Cost-Driven Elastic Deployment
+-
+-
+-
 ---
 
 ### Architecture Optimization
 
-<p align="center"><img width="100%" src="figures/architecture_optimization.png" alt="Architecture Optimization Taxonomy" /></p>
-
 #### Efficient Attention
-* [cite_start]**Sparse Attention**: SpAtten, Quest, InfLLM [cite: 1885]
-* [cite_start]**Linear / Kernelized Attention**: LoLCATs, ELFATT, Mobile Attention [cite: 1886]
-* [cite_start]**Mixture of Attention Experts**: MoA, SwitchHead [cite: 1890]
+##### Sparse Attention
+-
+-
+-
+##### Linear / Kernelized Attention
+-
+-
+-
+##### Mixture of Attention Experts
+-
+-
 
 #### Tailored Routers
-* [cite_start]**Token-Aware Sparsity**: Harder Task, Li et al., AdapMoE [cite: 1892]
-* [cite_start]**Cache-Aware Routing**: Skliar et al., ExpertFlow, ProMoE [cite: 1898]
-* [cite_start]**Load Balance Optimization**: Huang et al., CCFuser, ReMoE [cite: 1901]
+##### Token-Aware Sparsity
+-
+-
+-
+##### Cache-Aware Routing
+-
+-
+-
+##### Load Balance Optimization
+-
+-
+-
 
 #### Diverse Experts
-* [cite_start]**Internal Expert Architecture**: LiteMoE, SwapMoE, HMOE [cite: 1903]
-* [cite_start]**Expert Heterogeneity**: EdgeMoE, CoEL, D²MoE, HOBBIT [cite: 1927]
-* [cite_start]**Inter-Expert Parameter Sharing**: DeepSeekMoE, D²-MoE, MoE-SVD, GenPoE [cite: 1928]
-
+##### Internal Expert Architecture
+-
+-
+-
+##### Expert Heterogeneity
+-
+-
+-
+-
+##### Inter-Expert Parameter Sharing
+-
+-
+-
+-
 ---
 
 ### Parameter Optimization
 
-<p align="center"><img width="100%" src="figures/parameter_optimization.png" alt="Parameter Optimization Taxonomy" /></p>
 
 #### Multi-Granularity Quantization
-* [cite_start]**Expert-Level Granularity**: MoPEQ, GEMQ, PC-MoE, AdapMoE [cite: 1929]
-* [cite_start]**Intra-Layer Component Granularity**: MxMoE, Edge-MPQ, PIMOE, Block-Wise [cite: 1930]
-* [cite_start]**Channel-Level Granularity**: Automated Fine-Grained, Oiso [cite: 1931]
+##### Expert-Level Granularity
+-
+-
+-
+-
+##### Intra-Layer Component Granularity
+-
+-
+-
+-
+##### Channel-Level Granularity
+-
+-
 
 #### Low-Rank Approximation
-* [cite_start]**Structured Low-Rank Training**: Ultra-Memory-Efficient, QLORA, Choi [cite: 1932]
-* [cite_start]**Post-Training Low-Rank Approximation**: QMoE, Mixture Compressor [cite: 1933]
-* [cite_start]**Adaptive Rank Selection**: MoRE, LoRAMOE, Cannikin [cite: 1934]
+##### Structured Low-Rank Training
+-
+-
+-
+##### Post-Training Low-Rank Approximation
+-
+-
+##### Adaptive Rank Selection
+-
+-
+-
+
 
 #### Pruning
-* [cite_start]**Structured Pruning**: Switch Transformers, PC-MoE, Pre-gated MoE, CALM, Memory³ [cite: 1935]
-* [cite_start]**Unstructured Pruning**: TransCODE, Mobile Transformer, EfficientMoE, MegaBlocks [cite: 1936]
-* [cite_start]**Hybrid Pruning**: Mixture Compressor, Expert Choice, MPMOE [cite: 1937]
+##### Structured Pruning
+-
+-
+-
+-
+-
+##### Unstructured Pruning
+-
+-
+-
+-
+##### Hybrid Pruning
+-
+-
+-
 
 #### Knowledge Distillation
-* [cite_start]**MoE-to-Dense Distillation**: Switch Transformers, One Student [cite: 1938]
-* [cite_start]**MoE-to-Small-MoE Distillation**: SlimMoE, Scaling VLM, LLaVA-MoD, MoDE, D2DMoE, DeepMoE [cite: 1939]
-* [cite_start]**Task-Specific Distillation**: SubDistill, Muppet, EdgeMoE [cite: 1940]
+##### MoE-to-Dense Distillation
+-
+-
 
+##### MoE-to-Small-MoE Distillation
+-
+-
+-
+-
+-
+-
+##### Task-Specific Distillation
+-
+-
+-
 ---
 
 ## 🚀 Application Scenarios
