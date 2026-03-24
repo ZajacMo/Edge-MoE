@@ -242,11 +242,12 @@ language model via adaptive thresholding**[[paper]](https://doi.org/10.1145/3750
 
 ## 🚀 Application Scenarios
 
-[cite_start]LLMs based on the MoE architecture demonstrate significant potential when deployed at the edge across various latency-critical and privacy-sensitive domains[cite: 1766, 1785]:
-* [cite_start]**On-Device Intelligent Assistants**: Supporting real-time conversations, content generation, and context-aware interactions locally on smartphones and wearables[cite: 2774, 2784].
-* [cite_start]**Autonomous Driving**: Enabling real-time road condition analysis, V2V collision warning, and trajectory prediction while maintaining a strict 20-100 ms latency constraint without sending sensitive raw sensor data to the cloud[cite: 2791, 2794].
-* [cite_start]**Intelligent Healthcare**: Assisting clinicians in local diagnostic reasoning and patient monitoring, mitigating the privacy risks of centralized cloud inference for highly sensitive patient medical records[cite: 2879, 2886].
-* [cite_start]**Embodied Robotics**: Operating in smart factories and humanoid platforms with strict 10-100 ms end-to-end latency requirements, reducing massive communication bandwidth overheads while interacting with physical environments[cite: 2895, 2898, 2901].
+
+LLMs based on the MoE architecture demonstrate significant potential when deployed at the edge across various latency-critical and privacy-sensitive domains:
+* **On-Device Intelligent Assistants**: Supporting real-time conversations, content generation, and context-aware interactions locally on smartphones and wearables
+* **Autonomous Driving**: Enabling real-time road condition analysis, V2V collision warning, and trajectory prediction while maintaining a strict 20-100 ms latency constraint without sending sensitive raw sensor data to the cloud.
+* **Intelligent Healthcare**: Assisting clinicians in local diagnostic reasoning and patient monitoring, mitigating the privacy risks of centralized cloud inference for highly sensitive patient medical records.
+* **Embodied Robotics**: Operating in smart factories and humanoid platforms with strict 10-100 ms end-to-end latency requirements, reducing massive communication bandwidth overheads while interacting with physical environments.
 
 ---
 
