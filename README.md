@@ -58,27 +58,27 @@ This repository provides a comprehensive collection of research papers, open-sou
 ##### Expert Swapping & Offloading
 - (ACM'25)**Cache management for mixture-of-experts llms,” in European Conference on Parallel Processing**[[paper]](https://dl.acm.org/doi/10.1007/978-3-031-99872-0_2)
 - (IEEE'25)**Serving moe models on resource-constrained edge devices via dynamic expert swapping**[[paper]](https://ieeexplore.ieee.org/document/11022729)
-- (IEEE'25)**Ssd offloading for llm mixtureof-experts weights considered harmful in energy efficiency**[[paper]](https://ieeexplore.ieee.org/document/11095626)
+- (IEEE'25)**Ssd offloading for llm mixture-of-experts weights considered harmful in energy efficiency**[[paper]](https://ieeexplore.ieee.org/document/11095626)
 
 #### Pipeline Scheduling
 ##### Communication-Computation Co-scheduling
-- (IEEE'23)**Pipemoe: Accelerating mixture-ofexperts through adaptive pipelining**[[paper]](https://ieeexplore.ieee.org/document/10228874)
+- (IEEE'23)**Pipemoe: Accelerating mixture-of-experts through adaptive pipelining**[[paper]](https://ieeexplore.ieee.org/document/10228874)
 - (IEEE'24)**Parm: Efficient training of large sparsely-activated models with dedicated schedules**[[paper]](https://ieeexplore.ieee.org/document/10621327)
 - (IEEE'25)**Mast: Efficient training of mixture-of-experts transformers with task pipelining and ordering**[[paper]](https://ieeexplore.ieee.org/document/11183775)
 - (NeurIPS'25)**Flowmoe: A scalable pipeline scheduling framework for distributed mixture-of-experts training**[[paper]](https://neurips.cc/virtual/2025/loc/san-diego/poster/118234)
 - (IEEE'25)**Mitigating contention in stream multiprocessors for pipelined mixture of experts: An sm-aware scheduling approach**[[paper]](https://ieeexplore.ieee.org/document/11183819)
-- (ACM'25)**Harnessing intergpu shared memory for seamless moe communication-computation fusion**[[paper]](https://dl.acm.org/doi/10.1145/3710848.3710868)
+- (ACM'25)**Harnessing inter-GPU shared memory for seamless moe communication-computation fusion**[[paper]](https://dl.acm.org/doi/10.1145/3710848.3710868)
 
 ##### Expert Resource Elastic Management
 - (ACM‘23)**Flexmoe: Scaling large-scale sparse pre-trained model training via dynamic device placement**[[paper]]( https://doi.org/10.1145/3588964)
-- (ACM‘25)**Klotski: Efficient mixture-of-expert inference via expertaware multi-batch pipeline**[[paper]](https://dl.acm.org/doi/abs/10.1145/3676641.3716261)
-- (ACM‘25)**Harnessing intergpu shared memory for seamless moe communication-computation fusion**[[paper]](https://dl.acm.org/doi/10.1145/3710848.3710868)
+- (ACM‘25)**Klotski: Efficient mixture-of-expert inference via expert-aware multi-batch pipeline**[[paper]](https://dl.acm.org/doi/abs/10.1145/3676641.3716261)
+- (ACM‘25)**Harnessing inter-GPU shared memory for seamless moe communication-computation fusion**[[paper]](https://dl.acm.org/doi/10.1145/3710848.3710868)
 - (IEEE'24)**Mpmoe: Memory efficient moe for pre-trained models with adaptive pipeline parallelism**[[paper]](https://ieeexplore.ieee.org/document/10494556)
 
 
 #### Hardware Adaptation & Co-design
 ##### Heterogeneous Compute Resource Coordination
-- (ICLR'25)**Fiddler: Cpugpu orchestration for fast inference of mixture-of-experts models**[[paper]](https://iclr.cc/virtual/2024/21913)
+- (ICLR'25)**Fiddler: Cpu-GPU orchestration for fast inference of mixture-of-experts models**[[paper]](https://iclr.cc/virtual/2024/21913)
 - (aXiv'25)**eiq neutron: Redefining edge-ai inferencewith integrated npu and compiler innovations**[[paper]]( https://arxiv.org/abs/2509.14388)
 - (ACM'25)**Pimoe:Towards efficient moe transformer deployment on npu-pim system
 through throttle-aware task offloading**[[paper]](https://dl.acm.org/doi/10.1109/DAC63849.2025.11132528)
@@ -86,17 +86,17 @@ through throttle-aware task offloading**[[paper]](https://dl.acm.org/doi/10.1109
 
 ##### Domain-Specific Hardware Architecture Design
 - (IEEE'21)**Elsa: hardware-software co-design for efficient, lightweight self-attention mechanism in neural networks**[[paper]](https://ieeexplore.ieee.org/document/9499860/)
-- (IEEE'22)**Transpim: A memorybased acceleration via software-hardware co-design for transformer**[[paper]](https://ieeexplore.ieee.org/document/9773212)
+- (IEEE'22)**Transpim: A memory-based acceleration via software-hardware co-design for transformer**[[paper]](https://ieeexplore.ieee.org/document/9773212)
 - (ACM'25)**Slim:A heterogeneous accelerator for edge inference of sparse large
 language model via adaptive thresholding**[[paper]](https://doi.org/10.1145/3750727)
-- (IEEE'25)**Atleus: Accelerating transformers on the edge enabled by 3d heterogeneous manycore architectures**[[paper]](https://ieeexplore.ieee.org/document/10844861)
+- (IEEE'25)**Atleus: Accelerating transformers on the edge enabled by 3d heterogeneous manycore architectures**[[paper]](https://ieeexplore.ieee.org/document/10844861)
 - (ICLR'21)**Gshard: Scaling giant models with conditional computation and automatic sharding**[[paper]](https://openreview.net/forum?id=qrwe7XHTmYb)
 
 
 #### Distributed & Collaborative Deployment
 ##### Topology-Aware Communication and Routing
 - (IJCAI'24)**Locmoe: a low-overhead moe for large language model training**[[paper]](https://doi.org/10.24963/ijcai.2024/705)
-- (aXiv'25)**Gracemoe: Grouping and replication with locality-aware routing for efficient distributed moe inference**[[paper]](https://arxiv.org/abs/2509.25041)
+- (aXiv'25)**Grace-moe: Grouping and replication with locality-aware routing for efficient distributed moe inference**[[paper]](https://arxiv.org/abs/2509.25041)
 - (IEEE'24)**Exploiting inter-layer expert affinity for accelerating mixture-of-experts model inference**[[paper]](https://ieeexplore.ieee.org/document/10579139)
 - (ACM'24)**“Schemoe: An extensible mixture-of-experts distributed training system with tasks scheduling**[[paper]](https://doi.org/10.1145/3627703.3650083)
 - (USENIX ATC'23)**Accelerating distributed {MoE} training and inference with lina**[[paper]](https://www.usenix.org/conference/atc23/presentation/li-jiamin)
@@ -137,13 +137,13 @@ language model via adaptive thresholding**[[paper]](https://doi.org/10.1145/3750
 - (ACM'25)**AdapMoE: Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference**[[paper]](https://doi.org/10.1145/3676536.3676741)
 
 ##### Cache-Aware Routing
-- (TMLR'25)**Mixture of cacheconditional experts for efficient mobile device inference**[[paper]](https://arxiv.org/abs/2412.00099)
+- (TMLR'25)**Mixture of cache-conditional experts for efficient mobile device inference**[[paper]](https://arxiv.org/abs/2412.00099)
 - (arXiv'24)**Expertflow: Optimized expert activation and token allocation for efficient mixture-of-experts inference**[[paper]](https://arxiv.org/abs/2410.17954)
 - (arXiv'24)**Promoe: Fast moe-based llm serving using proactive caching**[[paper]](https://arxiv.org/abs/2410.22134)
 
 ##### Load Balance Optimization
 - (NeurIPS'24)**Toward efficient inference for mixture of experts**[[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/98bf3b8505c611ac21055dd9d355c66e-Abstract-Conference.html)
-- (ACM'25)**Harnessing intergpu shared memory for seamless moe communication-computation fusion**[[paper]](https://dl.acm.org/doi/10.1145/3710848.3710868)
+- (ACM'25)**Harnessing inter-GPU shared memory for seamless moe communication-computation fusion**[[paper]](https://dl.acm.org/doi/10.1145/3710848.3710868)
 - (ICLR'25)**Remoe: Fully differentiable mixture-of-experts with reLU routing**[[paper]](https://openreview.net/forum?id=4D0f16Vwc3)
 
 #### Diverse Experts
@@ -154,7 +154,7 @@ language model via adaptive thresholding**[[paper]](https://doi.org/10.1145/3750
 
 ##### Expert Heterogeneity
 -(IEEE'25) **EdgeMoE: Empowering Sparse Large Language Models on Mobile Devices** [[paper]](https://doi.ieeecomputersociety.org/10.1109/TMC.2025.3546466)
-- (IEEE'25)**The moe-empowered edge llms deployment: Architecture, challenges, and opportunities**[[paper]](https://ieeexplore.ieee.org/document/11141664)
+- (IEEE'25)**The moe-empowered edge llms deployment: Architecture, challenges, and opportunities**[[paper]](https://ieeexplore.ieee.org/document/11141664)
 - (MobiCom'25)**D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving**[[paper]](https://dl.acm.org/doi/10.1145/3680207.3723493)
 - (aXiv'24)**Hobbit: A mixed precision expert offloading system for fast moe inference**[[paper]](https://doi.org/10.48550/arXiv.2411.01433)
 
@@ -187,7 +187,7 @@ language model via adaptive thresholding**[[paper]](https://doi.org/10.1145/3750
 
 #### Low-Rank Approximation
 ##### Structured Low-Rank Approximation
-- (IEEE'25)**Ultra memory-efficient on-fpga training of transformers via tensorcompressed optimization**[[paper]](https://ieeexplore.ieee.org/document/11121368)
+- (IEEE'25)**Ultra memory-efficient on-fpga training of transformers via tensor-compressed optimization**[[paper]](https://ieeexplore.ieee.org/document/11121368)
 - (NeurIPS'23)**Qlora:efficient finetuning of quantized llms**[[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/1feb87871436031bdc0f2beaa62a049b-Paper-Conference.pdf)
 - (IEEE'25)**Toward generating quality test questions and answers using quantized low-rank adapters in llms**[[paper]](https://ieeexplore.ieee.org/document/11005578)
 
@@ -196,7 +196,7 @@ language model via adaptive thresholding**[[paper]](https://doi.org/10.1145/3750
 - (ICLR'25)**Mixture compressor for mixture-of-experts LLMs gains more**[[paper]](https://openreview.net/forum?id=hheFYjOsWO)
 
 ##### Adaptive Rank Selection
-- (ACL'25)**MoRE: A mixture of low-rank experts for adaptive multitask learning**[[paper]](https://aclanthology.org/2025.findings-acl.68/)
+- (ACL'25)**MoRE: A mixture of low-rank experts for adaptive multi-task learning**[[paper]](https://aclanthology.org/2025.findings-acl.68/)
 - (ACL'24)**LoRAMoE: Alleviating world knowledge forgetting in large language models via MoE-style plugin**[[paper]](https://aclanthology.org/2024.acl-long.106/)
 - (IEEE'25)**Cannikin:No lagger of slo in concurrent multiple lora llm serving**[[paper]](https://ieeexplore.ieee.org/document/11082562)
 
