@@ -47,7 +47,6 @@ This repository provides a comprehensive collection of research papers, open-sou
 - (Proc. IEEE'24) **Edge intelligence: Paving the last mile of artificial intelligence with edge computing**[[paper]](https://ieeexplore.ieee.org/document/8736011)
 - (COMST'17) **Mobile edge computing: A survey on architecture and computation offloading**[[paper]](https://ieeexplore.ieee.org/document/7879258)
 - (COMST'17) **A survey on mobile edge computing: The communication perspective**[[paper]](https://ieeexplore.ieee.org/document/8016573)
-- (IPDPS'24) **Exploiting inter-layer expert affinity for accelerating mixture-of-experts model inference**[[paper]](https://ieeexplore.ieee.org/document/10579139)
 - (Computer'17) **The emergence of edge computing**[[paper]](https://ieeexplore.ieee.org/document/7807196)
 - (IoT-J'16) **Edge computing: Vision and challenges**[[paper]](https://ieeexplore.ieee.org/document/7488250)
 - (COMST'29) **Convergence of edge computing and deep learning: A comprehensive survey**[[paper]](https://ieeexplore.ieee.org/document/8976180)
@@ -57,9 +56,6 @@ This repository provides a comprehensive collection of research papers, open-sou
 - (COMST'21) **Federated learning for internet of things: Recent advances, taxonomy, and open challenges**[[paper]](https://ieeexplore.ieee.org/document/9460016)
 - (COMST'25) **Mobile edge intelligence for large language models: A contemporary survey**[[paper]](https://ieeexplore.ieee.org/document/10835069)
 - (TKDE'25) **A survey on mixture of experts in large language models**[[paper]](https://ieeexplore.ieee.org/document/10937907)
-- (TMC'25) **Edgemoe:Empowering sparse large language models on mobile devices**[[paper]](https://ieeexplore.ieee.org/document/10906629)
-- (TC'25'25) **Serving moe models on resource-constrained edge devices via dynamic expert swapping**[[paper]](https://ieeexplore.ieee.org/document/11022729)
-- (MobiCom'25) **D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving**[[paper]](https://dl.acm.org/doi/10.1145/3680207.3723493)
 
 
 ## 🪴 Taxonomy
